@@ -1,34 +1,21 @@
-# Welcome to My Redmi Repository
+# React_Admin_Panel
 
-Thank you for visiting my project! This repository contains [React--Admin_Panel
-].
+Crypto site
+<br><br>
+Successfully developed a Admin Panel using JavaScript, ReactJS, and Node.js, enhancing my expertise in modern web technologies
+**Screen Shots Of Application** <br><br>
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%201.png?raw=true)
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%202.png?raw=true)
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%203.png?raw=true)
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%204.png?raw=true)
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%205.png?raw=true)
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%206.png?raw=true)
 
-## Getting Started
+![Screenshot (279)](https://github.com/Pavanjangle/React--Admin_Panel/blob/main/Scrennshot%20Panel%208.png?raw=true)
+<br><br>
 
-[Provide instructions on how to get started with your project. This could include installation steps, dependencies, or any initial setup.]
 
-## Usage
 
-[Explain how to use your project. Provide code examples or usage scenarios to help users understand how to interact with your project.]
 
-## Contributing
 
-[If you want to encourage contributions, provide guidelines or instructions for how others can contribute to your project.]
 
-## Issues
-
-[Explain how users can report issues or suggest improvements. Encourage them to provide detailed information when submitting an issue.]
-
-## License
-
-[Specify the license under which your project is distributed. For example, you might choose MIT, Apache 2.0, or another open-source license.]
-
-## Acknowledgements
-
-[If you've used code or resources from others, give credit here. You can also thank contributors or provide any additional information.]
-
-## Contact
-
-[Provide a way for users to get in touch with you. This could be an email address, a link to your website, or a social media handle.]
-
-Again, thank you for checking out my project!
