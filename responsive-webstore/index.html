@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website grocery store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> groco</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#reviewes">reviewes</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-bar"></div>
+            <div class="fa fa-search" id="search-bar"></div>
+            <div class="fa fa-shopping-cart" id="shoping-bar"></div>
+            <div class="fa fa-user" id="user-bar"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="text" name="search-box" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shoping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img height="150"
+                    src="https://5.imimg.com/data5/SELLER/Default/2022/12/DM/EC/KE/49293026/fresh-watermelon-fruit.webp"
+                    alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price"> $4.99/-</span>
+                    <span class="quantity"> qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img height="150" src="https://m.media-amazon.com/images/I/81p4sgrCfzL._AC_UF1000,1000_QL80_.jpg"
+                    alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price"> $4.99/-</span>
+                    <span class="quantity"> qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img height="150" src="https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg" alt="">
+                <div class="content">
+                    <h3>apple</h3>
+                    <span class="price"> $4.99/-</span>
+                    <span class="quantity"> qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total : $19.99/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+    <!-- header-section enda -->
+    <!-- home-section start -->
+    <section class="Home" id="Home">
+        <div class="content">
+            <h3>fresh and <span>organic</span> products for your</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, eligendi illum pariatur numquam quaerat
+                deserunt?</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+
+    <!-- home-section ends -->
+    <!-- features section satrt -->
+
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img height="150"
+                    src="https://png.pngtree.com/png-clipart/20190920/original/pngtree-cartoon-food-shopping-basket-illustration-png-image_4650235.jpg"
+                    alt="">
+                <h3>frsh and organic </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fuga! Obcaecati, hic.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img height="150"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0V5rbCEFVo4O5vrUfr12m8ba2YAp2JdhxG2Kpy_quWY8PHl95MrtpYhNzsMQfRglNhU&usqp=CAU"
+                    alt="">
+                <h3>food delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fuga! Obcaecati, hic.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img height="150"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0KhlGyP5kwKigeNg0zKFK1JU_JyYWXf6DvQ&usqp=CAU"
+                    alt="">
+                <h3>easy payment </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fuga! Obcaecati, hic.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- features section ends -->
+
+    <!-- products section is start -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img height="150" src="https://www.collinsdictionary.com/images/full/orange_342874121.jpg" alt="">
+                    <h3>frsh orange</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150" src="https://5.imimg.com/data5/VQ/WP/MY-28322396/organic-fresh-onion-500x500.png"
+                        alt="">
+                    <h3>frsh onion</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150"
+                        src="https://img2.exportersindia.com/product_images/bc-full/2020/10/6663555/fresh-apple-1603517390-5616726.jpeg"
+                        alt="">
+                    <h3>frsh apple</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150" src="https://shop.jivabhumi.com/image/cache/catalog/Cabbage-500x500.jpg" alt="">
+                    <h3>frsh cobbage</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+        <div class="swiper  product-slider">
+            <div class="swiper-wrapper ">
+                <div class="box swiper-slide">
+                    <img height="150" src="https://3.imimg.com/data3/WH/XJ/MY-2551004/potatoes.jpg" alt="">
+                    <h3>frsh potato</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150"
+                        src="https://5.imimg.com/data5/SELLER/Default/2021/11/FD/VE/AN/67466629/organic-fresh-ginger.jpeg"
+                        alt="">
+                    <h3>frsh ginger</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150" src="https://m.media-amazon.com/images/I/71S6oQqVa5L.jpg" alt="">
+                    <h3>frsh carrot</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150" src="https://m.media-amazon.com/images/I/71tmsEeS2+L._AC_UF1000,1000_QL80_.jpg"
+                        alt="">
+                    <h3>green lemon</h3>
+                    <div class="price">$4.99/- - $10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- products section is end -->
+
+    <!-- category section start -->
+
+    <section class="categories" id="categories">
+        <h1 class="heading"> our <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img height="150"
+                    src="https://4.imimg.com/data4/AY/TE/IMOB-27708947/c__data_users_defapps_appdata_internetexplorer_temp_sav.jpg"
+                    alt="">
+                <h3>vegetables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img height="150"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF2cGCeUJPuscxDg3b_0Sym_VBuJMHBnuQhA&usqp=CAU"
+                    alt="">
+                <h3>fresh fruits</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img height="150"
+                    src="https://static.vecteezy.com/system/resources/previews/000/293/952/non_2x/vector-dairy-products-set-with-milk-and-honey.jpg"
+                    alt="">
+                <h3>dairy products</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img height="150" src="https://www.shysha.in/wp-content/uploads/2021/07/beef-meat.png" alt="">
+                <h3>fresh meat</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+    <!-- category section end -->
+    <!-- reviewessection start -->
+    <section class="reviewes" id="reviewes">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="box swiper-slide">
+                    <img height="150"
+                        src="https://www.absence.io/fileadmin/userdaten/bilder/testimonials/absence-testimonials-shore-en.jpg"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iure obcaecati tempora nisi ex
+                        sint?
+                        Quas similique ab voluptates ducimus!</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150"
+                        src="https://incredibleheritageindiatours.com/wp-content/uploads/2016/10/testminoial-img-1.jpg"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iure obcaecati tempora nisi ex
+                        sint?
+                        Quas similique ab voluptates ducimus!</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150" src="https://fazendatourobravo.com.br/images/2017/08/21/rhino-testimonial.png"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iure obcaecati tempora nisi ex
+                        sint?
+                        Quas similique ab voluptates ducimus!</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150"
+                        src="https://quincy.harvard.edu/sites/projects.iq.harvard.edu/files/styles/profile_full/public/quincyhouse/files/sappington_anna_m1_001.jpeg?m=1659361042&itok=q_L21TGR"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iure obcaecati tempora nisi ex
+                        sint?
+                        Quas similique ab voluptates ducimus!</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="box swiper-slide">
+                    <img height="150"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_f4_otA2NWupxrxSYQ9o2aQcUqScY-LaStAoSqJ13nWWremhObpEUW-AmcdXlZX62Uk&usqp=CAU"
+                        alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste iure obcaecati tempora nisi ex
+                        sint?
+                        Quas similique ab voluptates ducimus!</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- reviewessection end -->
+
+    <!-- blog section start -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blog</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img height="130"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsacMUSx-PYOMOSnqxv3AA72g7rlU6RM8TxZHan_nXYq7vI60KU_XPglVEe1e039lPrew&usqp=CAU"
+                    alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 9 sep ,2023</a>
+                    </div>
+                    <h3>fresh and organic vegetables and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, quibusdam.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img height="130"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXkCAcN4fuLCZqFzZYjPzPk6HEwdtH2tzKI6aH05nJLYsJ9qSb1tnRLBwJMw6-c_7kuoE&usqp=CAU"
+                    alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 9 sep ,2023</a>
+                    </div>
+                    <h3>fresh and organic vegetables and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, quibusdam.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img height="130" src="https://goqii.com/blog/wp-content/uploads/SNF1902HZ-682_1312610a.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 9 sep ,2023</a>
+                    </div>
+                    <h3>fresh and organic vegetables and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, quibusdam.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog section end -->
+
+    <!--  footer section start -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>groco <i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, minus.</p>
+                <div class="share">
+                    <i class="fas fa-facebook-f"></i>
+                    <i class="fas fa-instagram"></i>
+                    <i class="fas fa-twitter"></i>
+                    <i class="fas fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +123-435-885</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +111-335-777</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> knmsurajmishra001@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marked-alt"></i> sultanpur ,uttar pradesh</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i> blogs</a>
+
+            </div>
+            <div class="box">
+                <h3>news letter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" class="email" placeholder="write email here..">
+                <input type="submit" value="subscribe" class="btn">
+                <img height="50" src="https://media.horusrc.com/wysiwyg/pay_by_cards.jpg" class="payment-img" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--  footer section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
